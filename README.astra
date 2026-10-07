@@ -4,21 +4,19 @@
 
 ASTRA is an interactive 3D educational platform designed to make Solar System learning more visual, interactive, and engaging.
 
-Instead of learning astronomy primarily through static textbooks, 2D diagrams, and passive videos, ASTRA allows students to **explore planets in 3D, visualize astronomical relationships, compare worlds, experiment with scientific scenarios, and ask contextual AI-powered questions.**
+Instead of relying mainly on textbooks, 2D diagrams, and passive videos, ASTRA allows students to **explore planets in 3D, compare worlds, visualize astronomical relationships, experiment with scientific scenarios, and ask contextual AI-powered questions.**
 
-The core learning approach is:
+### Core Learning Approach
 
-**Explore → Interact → Understand**
+**Explore → Interact → Question → Understand**
 
 ---
 
-# 1. Problem Statement
+# 🚀 1. Problem Statement
 
-## What is the problem?
+The Solar System is fundamentally a **three-dimensional environment**, but students often learn it through two-dimensional diagrams, static images, and passive video content.
 
-The Solar System is fundamentally a **three-dimensional environment**, but students often learn it through **two-dimensional diagrams, static textbook images, and passive video content**.
-
-Traditional learning methods make it difficult to develop an intuitive understanding of:
+This makes concepts such as:
 
 * Planetary distances
 * Relative planetary sizes
@@ -26,13 +24,17 @@ Traditional learning methods make it difficult to develop an intuitive understan
 * Rotation and revolution
 * Gravity differences
 * Atmospheric characteristics
-* Relationships between different planets
+* Relationships between planets
 
-The ASTRA concept identifies this gap with the question:
+difficult to understand intuitively.
 
-> **“The Solar System is 3D. Why learn it in 2D?”**
+For example, students may memorize that Earth is approximately **1 AU** from the Sun and Mars is approximately **1.52 AU**, but memorizing numbers does not necessarily create a visual understanding of the relationship between these worlds.
 
-The current learning process is often:
+### The Problem
+
+**“The Solar System is 3D. Why learn it in 2D?”**
+
+Traditional learning:
 
 **Read → Memorize → Move On**
 
@@ -42,98 +44,118 @@ ASTRA proposes:
 
 ---
 
-## Who experiences this problem?
+# 🎯 2. Target Users
 
-The primary users are:
+ASTRA is designed for:
 
-* School and college students learning astronomy
-* Students studying the Solar System and planetary science
-* Teachers looking for interactive astronomy demonstrations
-* Curious learners who want to understand astronomical concepts visually
-
----
-
-## Why is it a problem?
-
-Astronomical concepts can be difficult to understand when represented only through static diagrams or text.
-
-For example, students may memorize that:
-
-* Earth is approximately 1 AU from the Sun
-* Mars is approximately 1.52 AU from the Sun
-* Earth takes approximately 365 days to orbit the Sun
-* Mars takes approximately 687 days
-* Earth's gravity is approximately 9.81 m/s²
-* Mars' gravity is approximately 3.71 m/s²
-
-However, memorizing these numbers does not necessarily create an intuitive understanding of the relationships between these worlds.
-
-ASTRA attempts to turn these abstract values into **interactive visual experiences**.
+* 🎓 School and college students
+* 🔭 Students studying astronomy and planetary science
+* 👨‍🏫 Teachers demonstrating astronomical concepts
+* 🌌 Curious learners interested in space
 
 ---
 
-# 2. Existing Solutions
+# 💡 3. Proposed Solution
 
-Current astronomy education commonly relies on:
-
-### 📚 Textbooks and Static Diagrams
-
-They provide large amounts of information but generally present the Solar System as static 2D representations.
-
-**Limitation:**
-Students cannot directly interact with planetary models or dynamically explore relationships.
-
-### 🎥 Educational Videos
-
-Videos can demonstrate planetary concepts more effectively than static images.
-
-**Limitation:**
-The learner remains primarily a passive viewer rather than actively experimenting with the system.
-
-### 🌐 Traditional Astronomy Websites
-
-Many websites provide planetary facts, images, and educational information.
-
-**Limitation:**
-Information can remain fragmented between pages, images, tables, and text rather than being integrated into one interactive environment.
-
----
-
-## ASTRA's Difference
-
-ASTRA combines:
-
-**3D exploration + astronomical data + comparison + simulation + contextual AI**
-
-into a single learning environment.
-
-The objective is not simply to provide more information, but to allow students to **experience and investigate astronomical concepts.**
-
----
-
-# 3. Proposed Solution
-
-## What is ASTRA?
-
-ASTRA is an interactive web-based 3D Solar System learning platform.
-
-Students can enter an interactive representation of the Solar System and:
+ASTRA provides an interactive web-based 3D Solar System where students can:
 
 1. Select planets.
-2. Rotate and zoom around planetary models.
-3. Explore physical and atmospheric information.
+2. Rotate and zoom around 3D planetary models.
+3. Explore planetary and atmospheric information.
 4. Compare different planets.
 5. Visualize planetary distances and sizes.
-6. Experiment with scientific "What-If" scenarios.
-7. Ask AI questions related to what they are currently exploring.
+6. Experiment with scientific **What-If** scenarios.
+7. Ask an AI assistant questions related to what they are exploring.
 
-The platform is designed around active learning rather than passive information consumption.
+The goal is to transform astronomy from **passive information consumption into active exploration.**
 
 ---
 
-## Example Learning Flow
+# ✨ 4. Key Features
 
-A student wants to learn about Mars.
+## 🌍 Interactive 3D Solar System
+
+Explore the Solar System through interactive 3D models instead of static diagrams.
+
+Users can rotate, zoom, and navigate around planetary objects.
+
+## 🔭 Planet Exploration
+
+Select a planet and explore important information such as:
+
+* Distance from the Sun
+* Gravity
+* Atmosphere
+* Temperature
+* Rotation period
+* Revolution period
+* Moons
+
+## ⚖️ Planet Comparison
+
+Compare planets side by side to understand their differences visually.
+
+Example questions:
+
+* Why is Mars red?
+* Why is Earth's gravity stronger?
+* Why is Mars colder than Earth?
+
+## 📏 Multiple Visualization Modes
+
+ASTRA proposes different visualization modes:
+
+**Orbit View**
+Shows orbital structure and paths.
+
+**Distance View**
+Focuses on relative distances from the Sun.
+
+**Size View**
+Focuses on relative planetary dimensions.
+
+**Educational View**
+Uses adjusted visual scales to make astronomical relationships easier to understand while retaining scientific values.
+
+## 🔄 Rotation vs Revolution
+
+ASTRA visually demonstrates the difference between:
+
+**Rotation** — a planet spinning around its own axis.
+
+**Revolution** — a planet completing an orbit around the Sun.
+
+## 🧪 What-If Scientific Experiments
+
+Students can modify selected parameters and observe model-based outcomes.
+
+Examples:
+
+* What if Earth had no Moon?
+* What if Earth stopped rotating?
+* What if Earth's gravity increased?
+
+These are intended as **illustrative scientific models**, not predictions of real future events.
+
+## 🤖 Contextual AI Learning Assistant
+
+The AI assistant provides explanations based on the student's current exploration.
+
+For example:
+
+> “Why is Mars colder than Earth?”
+
+Instead of acting as a generic chatbot, the AI uses the current planet, relevant astronomical data, and learning context to provide an educational explanation.
+
+## 📊 Dynamic Astronomical Data
+
+Important astronomical values are displayed alongside the 3D visualization so students can connect **numbers with visual concepts**.
+
+---
+
+# 🧠 5. Example Learning Flow
+
+Suppose a student wants to learn about Mars.
 
 ### Step 1 — Select
 
@@ -145,7 +167,7 @@ The student rotates and zooms around the 3D Mars model.
 
 ### Step 3 — Discover
 
-The platform presents information such as:
+ASTRA displays information such as:
 
 * Distance from Sun: ~1.52 AU
 * Gravity: ~3.71 m/s²
@@ -156,216 +178,78 @@ The platform presents information such as:
 
 ### Step 4 — Compare
 
-The student places Mars and Earth side by side.
+The student compares Mars with Earth.
 
 ### Step 5 — Ask
 
-The student can ask:
+The student asks:
 
 > **“Why is Mars colder than Earth?”**
 
-The AI learning assistant provides contextual educational guidance.
+The AI Learning Assistant provides a contextual explanation.
 
-This transforms the learning process from:
-
-**Memorize → Recall**
-
-into:
+### Learning Transformation
 
 **Visualize → Interact → Question → Understand**
 
-The deck explicitly presents this learning progression.
-
 ---
 
-# 4. Key Features
-
-## 🌍 1. Interactive 3D Solar System
-
-Students can explore planets in a 3D environment rather than relying only on static diagrams.
-
----
-
-## 🔭 2. Planet Exploration
-
-Students can select individual planets and inspect their characteristics.
-
-## For example, the ASTRA concept provides Earth and Mars information including gravity, atmosphere, moons, distance from the Sun, rotation, and revolution.
-
-## ⚖️ 3. Planet Comparison
-
-ASTRA allows students to place worlds side by side and compare their properties.
-
-Example questions include:
-
-* Why is Mars red?
-* Why is Earth's gravity stronger?
-* Why is Mars colder?
-
-The comparison mode is designed to make differences between worlds visually understandable.
-
----
-
-## 📏 4. Multiple Visualization Modes
-
-ASTRA proposes different ways to visualize the Solar System:
-
-### Orbit View
-
-Shows Solar System structure and orbital paths.
-
-### Distance View
-
-Focuses on relative distances from the Sun.
-
-### Size View
-
-Focuses on relative planetary dimensions.
-
-### Educational View
-
-Uses adjusted visual scales for learning clarity while retaining scientific values.
-
-This distinction is important because showing astronomical distances and sizes simultaneously at true scale can make the system difficult to visualize.
-
----
-
-## 🔄 5. Rotation vs Revolution Visualization
-
-ASTRA can visually demonstrate the difference between:
-
-**Rotation**
-A planet spinning around its own axis.
-
-**Revolution**
-A planet completing an orbit around the Sun.
-
-The concept also includes comparisons of orbital speeds, such as Mercury, Earth, and Neptune.
-
----
-
-## 🧪 6. What-If Scientific Experiments
-
-Students can modify selected parameters and observe model-based outcomes.
-
-Example scenarios include:
-
-* What if Earth had no Moon?
-* What if Earth stopped rotating?
-* What if Earth's gravity increased?
-
-One proposed example explores a **+20% Earth gravity scenario**, showing how changes could affect atmospheric pressure, heat retention, water distribution, escape velocity, and other model outcomes.
-
-These scenarios are explicitly intended as **illustrative scientific models**, rather than predictions of real future events.
-
----
-
-## 🤖 7. Contextual AI Learning Assistant
-
-Students can ask questions while exploring a planet or scenario.
-
-Instead of functioning as a generic chatbot, the intended role of the AI assistant is to provide explanations related to the student's current learning context.
-
-Examples:
-
-> Why is Mars colder than Earth?
-
-> Why is Earth's gravity stronger?
-
-> What happens if a planet stops rotating?
-
----
-
-## 📊 8. Dynamic Astronomical Data
-
-Important astronomical properties can be presented alongside the 3D visualization, helping students connect numerical information with visual concepts.
-
----
-
-# 5. Technical Approach
-
-## System Architecture
-
-ASTRA is designed as a modern web-based application with separate components for:
+# 🏗️ 6. Technical Architecture
 
 ```text
-                    ┌─────────────────────┐
-                    │       Student       │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   React + TypeScript│
-                    │    Web Interface    │
-                    └──────────┬──────────┘
-                               │
-             ┌─────────────────┼─────────────────┐
-             │                 │                 │
-             ▼                 ▼                 ▼
-      ┌─────────────┐   ┌─────────────┐   ┌──────────────┐
-      │ 3D Engine   │   │ Simulation  │   │ AI Learning  │
-      │ Three.js    │   │   Engine    │   │  Assistant   │
-      │ React Three │   │ Physics /   │   │ Contextual   │
-      │ Fiber       │   │ What-If     │   │ Explanations │
-      └─────────────┘   └──────┬──────┘   └──────┬───────┘
-                               │                 │
-                               └────────┬────────┘
-                                        ▼
-                              ┌─────────────────┐
-                              │     FastAPI     │
-                              │     Backend     │
-                              └────────┬────────┘
-                                       │
-                                       ▼
-                              ┌─────────────────┐
-                              │   PostgreSQL    │
-                              │    Database     │
-                              └─────────────────┘
+                    ┌─────────────────┐
+                    │     Student     │
+                    └────────┬────────┘
+                             │
+                             ▼
+              ┌──────────────────────────┐
+              │   React + TypeScript     │
+              │      Web Interface       │
+              └────────────┬─────────────┘
+                           │
+             ┌─────────────┼─────────────┐
+             │             │             │
+             ▼             ▼             ▼
+       ┌──────────┐  ┌───────────┐  ┌─────────────┐
+       │ Three.js │  │ Simulation│  │ AI Assistant│
+       │ React    │  │  Engine   │  │  Contextual │
+       │ Three    │  │ What-If   │  │ Explanations│
+       │ Fiber    │  │  Models   │  │             │
+       └──────────┘  └─────┬─────┘  └──────┬──────┘
+                           │               │
+                           └───────┬───────┘
+                                   ▼
+                         ┌─────────────────┐
+                         │     FastAPI     │
+                         │     Backend     │
+                         └────────┬────────┘
+                                  │
+                                  ▼
+                         ┌─────────────────┐
+                         │   PostgreSQL    │
+                         │    Database     │
+                         └─────────────────┘
 ```
 
 ---
 
-## Major Components
+# 🛠️ 7. Technology Stack
 
-### 1. Web Interface
-
-The user-facing application provides:
-
-* Solar System navigation
-* Planet selection
-* 3D interaction
-* Comparison interface
-* Experiment controls
-* AI question interface
-
-The proposed frontend stack is **React + TypeScript**.
+| Component        | Technology                       |
+| ---------------- | -------------------------------- |
+| Frontend         | React + TypeScript               |
+| 3D Visualization | Three.js + React Three Fiber     |
+| Backend          | FastAPI                          |
+| Database         | PostgreSQL                       |
+| Simulation       | Physics / What-If Model          |
+| AI               | Contextual AI Learning Assistant |
+| Platform         | Web Application                  |
 
 ---
 
-### 2. 3D Visualization Engine
+# 🔬 8. Simulation Engine
 
-ASTRA uses:
-
-* Three.js
-* React Three Fiber
-
-The 3D engine is responsible for rendering and interacting with the Solar System models.
-
-Students can:
-
-* Rotate models
-* Zoom
-* Navigate around the system
-* Switch visualization modes
-* Compare planetary objects
-
----
-
-### 3. Simulation Engine
-
-The simulation component handles educational "What-If" scenarios.
-
-Conceptually:
+The What-If system follows this basic flow:
 
 ```text
 User changes parameter
@@ -381,116 +265,35 @@ Visual + Numerical Result
 AI Explanation
 ```
 
-The pitch deck identifies the simulation engine as a **Physics Model / What-If** component.
+For example, a **+20% Earth gravity scenario** could be used to demonstrate model-based changes involving atmospheric pressure, heat retention, water distribution, escape velocity, and other related concepts.
+
+The results are presented as educational simulations rather than real-world predictions.
 
 ---
 
-### 4. Backend
+# 🔐 9. Security Considerations
 
-The proposed backend uses **FastAPI**.
-
-It can act as the interface between:
-
-* Frontend
-* Planetary data
-* Simulation services
-* AI learning functionality
-* Database
-
----
-
-### 5. Database
-
-The proposed database technology is **PostgreSQL**.
-
-It can support the application's structured educational and planetary data.
-
----
-
-### 6. AI Learning Assistant
-
-The AI component provides contextual explanations based on the student's current exploration.
-
-For example:
-
-```text
-Student
-   │
-   │ "Why is Mars colder?"
-   ▼
-ASTRA Context
-   │
-   ├── Selected Planet: Mars
-   ├── Relevant Planetary Data
-   └── Learning Context
-   │
-   ▼
-AI Learning Assistant
-   │
-   ▼
-Educational Explanation
-```
-
-The pitch deck describes this component as providing **contextual explanations**.
-
----
-
-# 6. Technology Stack
-
-```text
-Frontend:
-React + TypeScript
-
-3D Visualization:
-Three.js + React Three Fiber
-
-Backend:
-FastAPI
-
-Database:
-PostgreSQL
-
-Simulation:
-Physics Model / What-If Engine
-
-AI:
-Contextual AI Learning Assistant
-
-Infrastructure:
-Web-based application infrastructure
-```
-
-The core stack above is taken directly from the technical architecture presented in the ASTRA pitch deck.
-
----
-
-# 7. Security Considerations
-
-The initial ASTRA concept focuses primarily on educational functionality. As the platform develops, security should include:
+As ASTRA develops, the platform can include:
 
 * Secure API communication
-* Input validation for simulation parameters
-* Backend authorization where user accounts are introduced
+* Input validation
+* Backend authorization
 * Protection of stored user information
-* Rate limiting for AI requests
+* AI request rate limiting
 * Protection against malicious API requests
-* Secure handling of any future student or classroom data
-
-Security requirements would become more important if ASTRA is deployed across schools or institutions.
+* Secure handling of future student/classroom data
 
 ---
 
-# 8. Expected Impact
+# 🎓 10. Expected Impact
 
-## 🎓 Students
+## Students
 
-ASTRA can make difficult astronomical concepts more intuitive by allowing students to see and interact with them rather than only reading about them.
+ASTRA can make difficult astronomical concepts more intuitive by allowing students to **see, interact with, and experiment with** concepts rather than only reading about them.
 
----
+## Teachers
 
-## 👨‍🏫 Teachers
-
-Teachers could use ASTRA as an interactive demonstration tool for explaining:
+ASTRA can act as an interactive demonstration tool for teaching:
 
 * Planetary motion
 * Gravity
@@ -499,104 +302,76 @@ Teachers could use ASTRA as an interactive demonstration tool for explaining:
 * Rotation and revolution
 * Scientific scenarios
 
----
-
-## 🌌 Education
+## Education
 
 ASTRA aims to shift astronomy education from:
 
-**Passive information consumption**
+**Passive Information Consumption**
 
-towards:
+to:
 
-**Active exploration and experimentation.**
-
-The intended learning cycle is:
-
-**Explore → Visualize → Interact → Question → Understand**
+**Active Exploration and Experimentation**
 
 ---
 
-## Long-Term Potential
+# 🗺️ 11. Future Scope
 
-If successfully developed, ASTRA could evolve beyond a Solar System learning website into an immersive digital astronomy platform.
-
-The proposed roadmap includes advanced simulation, exoplanet exploration, personalized learning, VR/AR astronomy, classroom integrations, and immersive group learning.
-
----
-
-# 9. Future Scope
-
-## Phase 1 — Interactive Solar System
-
-Initial platform capabilities:
+### Phase 1 — Interactive Solar System
 
 * Interactive 3D planets
 * Planet exploration
 * Distance and size visualization
-* Basic astronomical data
+* Astronomical data
 * Planet comparison
 
----
+### Phase 2 — Advanced Simulation
 
-## Phase 2 — Advanced Simulation
-
-Expand the What-If engine to support more educational scenarios.
-
-Examples:
-
-* Changes in planetary gravity
-* Changes in rotation
-* Changes in orbital parameters
+* Gravity experiments
+* Rotation changes
+* Orbital parameter changes
 * Moon-related scenarios
-* Other model-based experiments
+* Additional scientific models
+
+### Phase 3 — Digital Planetarium
+
+Future possibilities include:
+
+* 🌌 Exoplanet exploration
+* 🤖 Personalized AI learning
+* 🥽 VR/AR astronomy
+* 🏫 Classroom integration
+* 👥 Immersive group learning
 
 ---
 
-## Phase 3 — Digital Planetarium
+# 🌟 12. Why ASTRA?
 
-ASTRA could eventually become an immersive digital planetarium with:
+ASTRA is not intended to replace teachers or astronomy textbooks.
 
-* Exoplanet exploration
-* AI-powered personalized learning
-* VR/AR astronomy
-* Classroom integrations
-* Immersive group learning
-
-This three-phase evolution is part of the proposed ASTRA roadmap.
-
----
-
-# 10. Why ASTRA?
-
-The goal of ASTRA is not to replace astronomy textbooks or teachers.
-
-It is to provide something traditional resources cannot easily provide:
+It provides something traditional resources cannot easily provide:
 
 > **A space where students can explore astronomical concepts instead of only reading about them.**
 
 The Solar System is a spatial system.
 
-ASTRA makes that spatial nature part of the learning experience.
+**ASTRA makes that spatial nature part of the learning experience.**
 
 ---
 
-# 11. Conclusion
+# 🎯 13. Conclusion
 
 ASTRA transforms Solar System education from a passive learning process into an interactive experience.
 
-Instead of:
+Through:
 
-**Read → Memorize → Move On**
+* Interactive 3D visualization
+* Planet comparison
+* Dynamic astronomical data
+* Scientific What-If experiments
+* Contextual AI guidance
 
-ASTRA encourages:
+ASTRA aims to make astronomy more **intuitive, engaging, and experiential.**
 
-**Explore → Interact → Question → Understand**
-
-Through interactive 3D visualization, planetary comparison, dynamic data, scientific What-If experiments, and contextual AI guidance, ASTRA aims to make astronomy more intuitive, engaging, and experiential.
-
-## 🌌 The Universe Is Waiting to Be Explored.
+### 🌌 Explore. Visualize. Understand.
 
 **ASTRA**
-
-**Explore. Visualize. Understand the Solar System.**
